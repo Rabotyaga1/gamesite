@@ -1,5 +1,13 @@
+<script setup>
+
+// import { useAppStore } from "@/store/app"
+
+const appStore = useAppStore(); 
+
+</script>
+
 <template>
   <div>
-    <NuxtWelcome />
+    {{ appStore.xyu }}
   </div>
 </template>
