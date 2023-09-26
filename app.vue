@@ -8,6 +8,9 @@ const appStore = useAppStore();
 
 <template>
   <div>
+    <h1 class="text-3xl font-bold hover:bg-sky-700">
+      Hello world!
+    </h1>
     {{ appStore.xyu }}
   </div>
 </template>
