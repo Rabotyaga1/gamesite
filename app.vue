@@ -1,16 +1,17 @@
 <script setup>
-
 // import { useAppStore } from "@/store/app"
 
-const appStore = useAppStore(); 
-
+const appStore = useAppStore();
 </script>
 
 <template>
   <div>
-    <h1 class="text-3xl font-bold hover:bg-sky-700">
-      Hello world!
-    </h1>
+    <h1 class="text-3xl font-bold hover:bg-sky-700">Hello world!</h1>
+    <button
+      class="bg-sky-700 px-4 py-2 text-white hover:bg-sky-800 sm:px-8 sm:py-3"
+    >
+      ...
+    </button>
     {{ appStore.xyu }}
   </div>
 </template>
